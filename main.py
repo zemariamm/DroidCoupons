@@ -19,7 +19,7 @@ from google.appengine.ext.webapp import util
 from handlers import *
 
 # example - http://localhost:8085/random/directball to get a key for directball
-# example2 - http://localhost:8085/check/directball/iioadio0?deviceid=adeus to check application "directball" for coupon "iioadio0" with deviceid "adeus"
+# example2 - http://localhost:8085/check/directball/dbsbd?deviceid=adeus to check application "directball" for coupon "dbsbd" with deviceid "adeus"
 
 def main():
     application = webapp.WSGIApplication([('/', MainHandler),
